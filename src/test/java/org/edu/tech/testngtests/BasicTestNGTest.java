@@ -13,7 +13,7 @@ public class BasicTestNGTest {
 	
 	@Test
 	public void test2(){
-		Assert.assertEquals(2+3, 6);
+		Assert.assertEquals(2*3, 6);
 	}
 
 }
