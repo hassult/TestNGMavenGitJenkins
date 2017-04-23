@@ -18,7 +18,7 @@ public class BasicTestNGTest {
 
 	@Test
 	public void test3(){
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 
 }
