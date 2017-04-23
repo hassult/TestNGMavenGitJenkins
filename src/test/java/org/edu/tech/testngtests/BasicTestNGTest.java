@@ -1,8 +1,8 @@
 package org.edu.tech.testngtests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 
 public class BasicTestNGTest {
 	
@@ -14,6 +14,11 @@ public class BasicTestNGTest {
 	@Test
 	public void test2(){
 		Assert.assertEquals(2*3, 6);
+	}
+
+	@Test
+	public void test3(){
+		Assert.assertEquals(true, false);
 	}
 
 }
